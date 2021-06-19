@@ -60,6 +60,10 @@ public class conversor {
             if(opcao==3){
                 novo.realpararemimbi();
             }
+            else{
+                System.out.println("Opção invalida");
+                novo.menu();
+            }
 }
 }
 }
